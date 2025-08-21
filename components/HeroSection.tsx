@@ -76,7 +76,7 @@ export function HeroSection() {
                                 size="lg"
                                 className="group border-2 hover:bg-primary hover:text-primary-foreground bg-transparent"
                             >
-                                <Link href="#contact" className="flex items-center">
+                                <Link href="/Umesh_Resume.pdf" target="_blank" rel="noopener noreferrer" download className="flex items-center">
                                     <Download className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform" />
                                     Download Resume
                                 </Link>
@@ -92,13 +92,13 @@ export function HeroSection() {
                                 </Link>
                             </Button>
                             <Button variant="ghost" size="icon" className="btn-hover rounded-full hover:bg-primary/10" asChild>
-                                <Link href="https://www.linkedin.com/in/umeshkyadav314/" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.linkedin.com/in/umeshkyadav1207/" target="_blank" rel="noopener noreferrer">
                                     <Linkedin className="h-5 w-5" />
                                     <span className="sr-only">LinkedIn</span>
                                 </Link>
                             </Button>
                             <Button variant="ghost" size="icon" className="btn-hover rounded-full hover:bg-primary/10" asChild>
-                                <Link href="https://leetcode.com/u/umeshkyadav314/" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://leetcode.com/u/umeshkyadav1207/" target="_blank" rel="noopener noreferrer">
                                     <Code className="h-5 w-5" />
                                     <span className="sr-only">LeetCode</span>
                                 </Link>

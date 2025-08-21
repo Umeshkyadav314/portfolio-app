@@ -5,7 +5,7 @@ import { Briefcase, Calendar, Zap } from "lucide-react"
 
 export function ExperienceSection() {
     return (
-        <section id="experience" className="container py-24">
+        <section id="experience" className="container py-16">
             <AnimatedSection>
                 <div className="mx-auto max-w-4xl space-y-8">
                     <h2 className="text-3xl font-bold tracking-tighter text-center md:text-4xl">Experience</h2>
@@ -20,13 +20,13 @@ export function ExperienceSection() {
                                         </CardTitle>
                                         <CardDescription className="text-base">GoRoots (Remote)</CardDescription>
                                     </div>
-                                    <Badge className="animate-pulse">Current</Badge>
+                                    <Badge variant="secondary">Completed</Badge>
                                 </div>
                             </CardHeader>
                             <CardContent className="space-y-4">
                                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                                     <Calendar className="h-4 w-4" />
-                                    <span>January 2025 – Present</span>
+                                    <span>January 2025 – July 2025</span>
                                 </div>
                                 <ul className="space-y-3 text-sm">
                                     {[

@@ -5,7 +5,7 @@ import { GraduationCap, Calendar } from "lucide-react"
 
 export function EducationSection() {
     return (
-        <section id="education" className="container py-24 bg-muted/50">
+        <section id="education" className="container py-16">
             <AnimatedSection>
                 <div className="mx-auto max-w-4xl space-y-8">
                     <h2 className="text-3xl font-bold tracking-tighter text-center md:text-4xl">Education</h2>
@@ -22,15 +22,15 @@ export function EducationSection() {
                                             Goel Institute of Technology and Management, Lucknow, Uttar Pradesh, India
                                         </CardDescription>
                                     </div>
-                                    <Badge variant="secondary" className="animate-pulse">
-                                        CGPA: 7.5
+                                    <Badge variant="secondary">
+                                        Completed - CGPA: 7.5
                                     </Badge>
                                 </div>
                             </CardHeader>
                             <CardContent>
                                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                                     <Calendar className="h-4 w-4" />
-                                    <span>October 2021 – May 2025</span>
+                                    <span>October 2021 – July 2025 (Completed)</span>
                                 </div>
                             </CardContent>
                         </Card>

@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export function ContactSection() {
     return (
-        <section id="contact" className="container py-24">
+        <section id="contact" className="container py-16">
             <AnimatedSection>
                 <div className="mx-auto max-w-2xl text-center space-y-8">
                     <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Get In Touch</h2>
@@ -31,7 +31,7 @@ export function ContactSection() {
                                 className="group border-2 hover:bg-primary hover:text-primary-foreground bg-transparent"
                             >
                                 <Link
-                                    href="https://www.linkedin.com/in/umeshkyadav314/"
+                                    href="https://www.linkedin.com/in/umeshkyadav1207/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center"
@@ -72,7 +72,7 @@ export function ContactSection() {
                                 <Linkedin className="h-6 w-6" />
                             </Link>
                             <Link
-                                href="https://leetcode.com/u/umeshkyadav314/"
+                                href="https://leetcode.com/u/umeshkyadav1207/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-muted-foreground hover:text-foreground transition-all hover:scale-110"

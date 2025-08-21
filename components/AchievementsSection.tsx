@@ -6,17 +6,22 @@ import { Code, Trophy, Award } from "lucide-react"
 export function AchievementsSection() {
     const achievements = [
         {
-            title: "Competitive Programming",
-            description: "Solved 500+ problems across various platforms",
+            title: "Broad Coding Practice",
+            description: "Solved over 500+ problems across various competitive programming platforms",
             icon: <Code className="h-5 w-5" />,
             stats: [
                 {
                     platform: "LeetCode",
                     count: "300+ problems",
                     rating: "1409",
-                    link: "https://leetcode.com/u/umeshkyadav314/",
+                    link: "https://leetcode.com/u/umeshkyadav1207/",
                 },
-                { platform: "CodeChef", count: "2-star rating", rating: "1480", link: "https://www.codechef.com/users/yku314" },
+                {
+                    platform: "CodeChef",
+                    count: "2-star rating",
+                    rating: "1497",
+                    link: "https://www.codechef.com/users/umeshyadav1207"
+                },
             ],
         },
         {
@@ -24,8 +29,18 @@ export function AchievementsSection() {
             description: "Strong performance in competitive programming contests",
             icon: <Trophy className="h-5 w-5" />,
             stats: [
-                { platform: "Starters 165", count: "Global Rank", rating: "690", link: "#" },
-                { platform: "Starters 170", count: "Global Rank", rating: "281", link: "#" },
+                {
+                    platform: "Starters 170",
+                    count: "Global Rank",
+                    rating: "281",
+                    link: "#"
+                },
+                {
+                    platform: "Starters 199",
+                    count: "Worldwide Rank",
+                    rating: "82",
+                    link: "#"
+                },
             ],
         },
         {
@@ -39,7 +54,7 @@ export function AchievementsSection() {
         },
     ]
     return (
-        <section id="achievements" className="container py-24 bg-muted/50">
+        <section id="achievements" className="container py-16">
             <AnimatedSection>
                 <div className="mx-auto max-w-4xl space-y-8">
                     <h2 className="text-3xl font-bold tracking-tighter text-center md:text-4xl">Achievements</h2>
