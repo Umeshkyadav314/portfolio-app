@@ -118,7 +118,7 @@ export function ProjectsSection() {
                                                     src={project.image || "/placeholder.svg"}
                                                     alt={project.title}
                                                     fill
-                                                    className="object-contain w-full h-full"
+                                                    className="object-cover w-full h-full"
                                                 />
                                             </div>
                                         </div>
