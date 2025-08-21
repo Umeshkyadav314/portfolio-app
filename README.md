@@ -6,31 +6,31 @@ A modern personal portfolio built with Next.js, TypeScript, Tailwind CSS and sha
 
 1. Landing
 
-![Portfolio Landing](/images/portfolio-landingpage.png)
+![Portfolio Landing](/public/images/portfolio-landingpage.png)
 
 2. About
 
-![About](/images/pf-about.png)
+![About](/public/images/pf-about.png)
 
 3. Experience
 
-![Experience](/images/pf-exp.png)
+![Experience](/public/images/pf-exp.png)
 
 4. Skills
 
-![Skills](/images/pf-skills.png)
+![Skills](/public/images/pf-skills.png)
 
 5. Projects
 
-![Projects](/images/pf-projects.png)
+![Projects](/public/images/pf-projects.png)
 
 6. Achievements
 
-![Achievements](/images/pf-achivedments.png)
+![Achievements](/public/images/pf-achivedments.png)
 
 7. Footer / Contact
 
-![Footer](/images/pf-footer.png)
+![Footer](/public/images/pf-footer.png)
 
 ## Projects Highlighted
 

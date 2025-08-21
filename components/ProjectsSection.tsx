@@ -44,7 +44,7 @@ export function ProjectsSection() {
             technologies: ["React.js", "Three.js", "Node.js", "MongoDB", "Tailwind CSS"],
             github: "https://github.com/Umeshkyadav314/3d-mvs-webapp",
             demo: "#",
-            image: "/images/3d-landingpage.jpg",
+            image: "/images/3d-landingpage.JPG",
             highlights: [
                 "3D Rendering with Three.js for model rotation, lighting, and texture features",
                 "Model Upload & Storage for .glb, .gltf files with MongoDB metadata",
