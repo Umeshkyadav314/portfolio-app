@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern personal portfolio built with Next.js, TypeScript, Tailwind CSS and shadcn/ui. It showcases About, Education, Experience, Skills, Projects and Achievements, with dark/light theme and smooth section animations.
+A modern personal portfolio built with a clean, frontend-only stack and smooth animations.
 
 ## Screenshots
 
@@ -32,28 +32,20 @@ A modern personal portfolio built with Next.js, TypeScript, Tailwind CSS and sha
 
 ![Footer](/public/images/pf-footer.png)
 
-## Projects Highlighted
+## Tech Stack (Frontend & UI)
 
-- Portfolio App (Next.js, TypeScript, Tailwind CSS, shadcn/ui, Lucide, Vercel)
-- MovieFlixx (React, Vite, JavaScript, SCSS, TMDB API, Vercel)
-- Rule Engine with AST (Node.js, Express, MongoDB, Tailwind, Lucide, Axios, Clerk)
-- 3D Model Viewer (React, Three.js, Node.js, MongoDB, Tailwind CSS)
-- Energy Optimization Platform (Next.js, TypeScript, Tailwind CSS, Clerk, Mongoose, MongoDB)
-- URL Shortener (React, shadcn/ui, TailwindCSS, Supabase, PostgreSQL, Vite)
+- Next.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide
+- Vercel (deployments)
 
-## Tech Stack / Skills
+## Key Features
 
-- Frameworks: Next.js, React, Node.js, Express
-- Languages: TypeScript, JavaScript, C, C++
-- UI/Styling: Tailwind CSS, shadcn/ui, SCSS, Lucide Icons
-- Databases: MongoDB, PostgreSQL, MySQL, Redis, NoSQL, Advanced SQL
-- Auth/Platforms: Clerk, Supabase
-- 3D/Visualization: Three.js, Recharts
-- Tooling/Build: Vite, Webpack, PostCSS, pnpm/npm
-- DevOps/Other: Git, Docker, AWS, Vercel
-- OS/CLI: Unix/Linux, Shell Scripting, System Navigation
-- CS Fundamentals: Data Structures & Algorithms, OOPS, DBMS, Operating Systems
-- Professional: Software Development, Testing/Debugging, Troubleshooting, Documentation, On‑call/Production Support, Project/Time Management
+- Responsive, accessible UI with reusable components and clean architecture
+- Dark/light theme with a consistent design system using Tailwind and shadcn/ui
+- Optimized builds and fast deployments on Vercel
 
 ## Getting Started
 
@@ -73,7 +65,7 @@ pnpm start   # or npm start
 
 ## Resume
 
-The site exposes a direct download for the PDF resume at `/Umesh_Resume.pdf` via the Download button on the hero section.
+Direct download available at `/Umesh_Resume.pdf` via the "Download Resume" button on the hero section.
 
 ## License
 
