@@ -53,33 +53,6 @@ export function ProjectsSection() {
             ],
         },
         {
-            title: "Energy Optimization Platform",
-            description: "Tool to reduce electricity bills by optimizing solar power usage based on real-time tariff data.",
-            technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Mongoose", "MongoDB"],
-            github: "https://github.com/Umeshkyadav314/energy-optimization",
-            demo: "#",
-            image: "/images/eop.png",
-            highlights: [
-                "Live tariff monitoring with predictive analytics",
-                "Real-time and historical consumption data analytics",
-                "Automated appliance scheduling for optimal tariff intervals",
-            ],
-        },
-        {
-            title: "Rule Engine with AST",
-            description:
-                "Rules engine for eligibility verification using Abstract Syntax Tree for customizable logic creation.",
-            technologies: ["Node.js", "Express", "MongoDB", "Tailwind", "Lucide", "Axios", "Clerk"],
-            github: "https://github.com/Umeshkyadav314/Rule-Engin-AST",
-            demo: "https://github.com/Umeshkyadav314/Rule-Engin-AST",
-            image: "/images/rule-engine-image.png",
-            highlights: [
-                "Clerk authentication for secure sessions",
-                "AST-based evaluation for structured, scalable rule processing",
-                "Customizable logic creation interface",
-            ],
-        },
-        {
             title: "URL Shortener Web Application",
             description:
                 "A URL shortener application built using React.js, ShadCN UI, TailwindCSS, and Supabase. It allows users to shorten long URLs, manage them, and get redirected to the original URLs.",
